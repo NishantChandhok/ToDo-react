@@ -1,0 +1,153 @@
+.all{
+    margin: 0px 400px 0px 400px;
+    align-content: center;
+    height: 100vh;
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;     
+}
+.header{
+    text-align: center;
+}
+#input{
+    width: 52%;
+    padding: 14px 5px;
+    margin: 20px 5px 8px 0px;
+    border-color: red;
+    border-radius: 5px;
+}
+.Button{
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+  color: red;
+  padding: 14px 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.Button:hover{
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+  color: white;
+  padding: 14px 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+
+}
+.individual{
+    background-color: red;
+    margin: 0px 5px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 0px 0px 25px;
+   border-radius: 5px;
+   width: 100%;
+    
+    
+    
+
+}
+.individual .ind_text{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    
+}
+.editarea{
+ margin: auto;
+ width: 70% ;
+ height: 70vh;
+ justify-content: center;
+}
+.insideButtons{
+    width: 35%;
+    display: flex;
+    
+    
+}
+.insideButton       {
+    
+  padding: 13px;
+  width: 50%; 
+    border:none;
+    border-radius: 5px;
+    background-color: red;
+  color: white;
+  cursor: pointer;
+   transition-delay: 0.4s; 
+    
+}
+.insideButton :hover      {
+
+    
+        color: black;    
+      
+  }
+  .deleteAll{
+      text-align: center;
+  }
+  #deleteAll{
+
+  
+  background-color: white;
+  border-color: red;
+  border-radius: 5px;
+color: red;
+padding: 14px 24px;
+margin: 4px 2px;
+cursor: pointer;
+transition-duration: 0.5s;
+}
+#deleteAll:hover{
+    text-align: center;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+color: white;
+padding: 14px 24px;
+margin: 4px 2px;
+cursor: pointer;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    /* content: 'Delete ALL'; */
+    
+}   
+.deleteAll .txt{
+    display: none;
+}
+
+.deleteAll:hover .icon{
+    display:none;
+}
+.deleteAll:hover .txt{
+    display: inline;
+}
+#checkBox ,.checkAll    {
+    
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    background-color: #eee
+
+    
+}
+#checkBox:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.area{
+      display: flex;
+      margin: 10px 5px;
+      justify-content: center;
+    
+  }
+.check{
+    justify-content: center;
+}
