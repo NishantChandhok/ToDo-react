@@ -107,19 +107,15 @@ const Todo = () => {
     }
     const handleCheckedAll = () => {
 
-        if (Checked) {
-            setChecked(false);
-        }
-        else {
-            setChecked(true);
-        }
 
+        setChecked(!Checked);
         setData(
             data.map((e) => {
                 return { ...e, select: !Checked };
 
             })
         )
+
 
     }
     return (
